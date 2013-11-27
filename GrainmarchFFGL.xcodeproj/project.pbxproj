@@ -184,15 +184,10 @@
 				5B8123A91842AD7C0076EB97 /* GrainmarchFFGL.bundle */,
 				5B8123BB1842EA9A0076EB97 /* Blockhead.bundle */,
 				5B8123BC1842EA9A0076EB97 /* Blockhead-Info.plist */,
-<<<<<<< HEAD
 				0AA3A7C518445912005B0AEE /* cortex.bundle */,
 				0AA3A7C618445912005B0AEE /* Grainmarch copy-Info.plist */,
 				0A620BFF1846AC2300AEC836 /* raymarch.bundle */,
 				0A620C001846AC2300AEC836 /* cortex copy-Info.plist */,
-=======
-				5B8123D3184459F20076EB97 /* NDots.bundle */,
-				5B8123D4184459F20076EB97 /* NDots-Info.plist */,
->>>>>>> 4a459d036e8a2514430e64fd0366b779b69ded17
 			);
 			sourceTree = "<group>";
 		};
@@ -256,13 +251,8 @@
 		5BBDA4ED183F13350058C89C /* plugins */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				0AA3A7AE184458EB005B0AEE /* cortex.cpp */,
 				0AA3A7AF184458EB005B0AEE /* cortex.glsl */,
-=======
-				5B8123D518445AF20076EB97 /* NDots.cpp */,
-				5B8123D618445AF20076EB97 /* NDots.glsl */,
->>>>>>> 4a459d036e8a2514430e64fd0366b779b69ded17
 				5B0FCE8D1793DCEC004E2E35 /* default_vertex_shader.glsl */,
 				5BBDA502183F2B430058C89C /* Tanline.cpp */,
 				5BBDA503183F2B430058C89C /* Tanline.glsl */,
@@ -404,12 +394,8 @@
 				2D2190890AF02BD1007154B7 /* Grainmarch */,
 				5BBDA4EE183F2ACF0058C89C /* Tanline */,
 				5B8123AA1842EA9A0076EB97 /* Blockhead */,
-<<<<<<< HEAD
 				0AA3A7B218445912005B0AEE /* cortex */,
 				0A620BED1846AC2300AEC836 /* raymarch */,
-=======
-				5B8123C2184459F20076EB97 /* NDots */,
->>>>>>> 4a459d036e8a2514430e64fd0366b779b69ded17
 			);
 		};
 /* End PBXProject section */

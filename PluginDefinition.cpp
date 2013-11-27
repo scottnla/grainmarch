@@ -10,10 +10,11 @@
 
 #include <sys/time.h>
 
-
-std::default_random_engine generator;
-std::uniform_real_distribution<float> distribution(0.0, 1.0);
-auto dice = std::bind(distribution, generator);
+float dice() {
+    static std::default_random_engine generator;
+    static std::uniform_real_distribution<float> distribution(0.0, 1.0);
+    return distribution(generator);
+}
 
 Parameter::Parameter(string name, float min, float max, float value, int type, bool isShader, ParamAction action)
 : Name(name)
@@ -89,8 +90,13 @@ void ShaderPlugin::InitParameters()
         [](Parameter& randomp, float newValue, ParamList& list) {
             if (newValue != 1.0) return;
             for (auto& p : list) {
-                if (p.Name != randomp.Name)
-                    p.Value = dice();
+                if (p.Name != randomp.Name) {
+                    if (p.Type == FF_TYPE_BOOLEAN) {
+                        p.Value = dice() >= 0.5;
+                    } else {
+                        p.Value = dice();
+                    }
+                }
             }
         }
     ));
@@ -128,6 +134,7 @@ DWORD ShaderPlugin::InitGL(const FFGLViewportStruct *vp)
     m_resolutionYLocation = m_shader.FindUniform("iResolutionY");
     m_resolutionX = vp->width;
     m_resolutionY = vp->height;
+    m_aspectRatio = m_resolutionX / m_resolutionY;
     
     m_shader.UnbindShader();
        

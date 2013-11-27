@@ -56,6 +56,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+<<<<<<< HEAD
                BlueprintIdentifier = "0AA3A7B218445912005B0AEE"
                BuildableName = "cortex.bundle"
                BlueprintName = "cortex"
@@ -73,6 +74,11 @@
                BlueprintIdentifier = "0A620BED1846AC2300AEC836"
                BuildableName = "raymarch.bundle"
                BlueprintName = "raymarch"
+=======
+               BlueprintIdentifier = "5B8123C2184459F20076EB97"
+               BuildableName = "NDots.bundle"
+               BlueprintName = "NDots"
+>>>>>>> 4a459d036e8a2514430e64fd0366b779b69ded17
                ReferencedContainer = "container:GrainmarchFFGL.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

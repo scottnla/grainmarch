@@ -105,8 +105,13 @@
 		5B0FCE8A1793D806004E2E35 /* PluginDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginDefinition.h; sourceTree = "<group>"; };
 		5B0FCE8D1793DCEC004E2E35 /* default_vertex_shader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = default_vertex_shader.glsl; path = plugins/default_vertex_shader.glsl; sourceTree = "<group>"; };
 		5B0FCE911793DE3E004E2E35 /* Grainmarch.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; name = Grainmarch.glsl; path = plugins/Grainmarch.glsl; sourceTree = "<group>"; };
+<<<<<<< HEAD
+		5B8123A91842AD7C0076EB97 /* GrainmarchFFGL_debug.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrainmarchFFGL_debug.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B8123BB1842EA9A0076EB97 /* Blockhead.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Blockhead.bundle; path = BlockheadFFGL.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+=======
 		5B8123A91842AD7C0076EB97 /* GrainmarchFFGL.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrainmarchFFGL.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B8123BB1842EA9A0076EB97 /* Blockhead.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Blockhead.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+>>>>>>> 4a459d036e8a2514430e64fd0366b779b69ded17
 		5B8123BC1842EA9A0076EB97 /* Blockhead-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Blockhead-Info.plist"; path = "/Users/dewb/dev/grainmarch/Blockhead-Info.plist"; sourceTree = "<absolute>"; };
 		5B8123BD1842EAE90076EB97 /* Blockhead.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Blockhead.cpp; path = plugins/Blockhead.cpp; sourceTree = "<group>"; };
 		5B8123BE1842EAE90076EB97 /* Blockhead.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Blockhead.glsl; path = plugins/Blockhead.glsl; sourceTree = "<group>"; };

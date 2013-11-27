@@ -43,8 +43,36 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5B8123AA1842EA9A0076EB97"
-               BuildableName = "Blockhead.bundle"
+               BuildableName = "BlockheadFFGL.bundle"
                BlueprintName = "Blockhead"
+               ReferencedContainer = "container:GrainmarchFFGL.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0AA3A7B218445912005B0AEE"
+               BuildableName = "cortex.bundle"
+               BlueprintName = "cortex"
+               ReferencedContainer = "container:GrainmarchFFGL.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0A620BED1846AC2300AEC836"
+               BuildableName = "raymarch.bundle"
+               BlueprintName = "raymarch"
                ReferencedContainer = "container:GrainmarchFFGL.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -68,7 +96,7 @@
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
       <PathRunnable
-         FilePath = "/Applications/Resolume Arena 4.1.7/Arena.app">
+         FilePath = "/Applications/Resolume Arena 4.1.6/Arena.app">
       </PathRunnable>
       <AdditionalOptions>
       </AdditionalOptions>

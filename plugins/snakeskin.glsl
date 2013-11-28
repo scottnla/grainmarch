@@ -4,7 +4,7 @@ char fragmentShaderCode[] = R"(
 precision highp float;
 #endif
 
-uniform float iGlobalTime;
+uniform float Time;
 uniform float iResolutionX;
 uniform float iResolutionY;
 uniform float FreqStart; //1 - 100
@@ -14,8 +14,6 @@ uniform float PhaseOffset; //0 - 1
 uniform float Scale; //0-1
 uniform float Speed; //0 - 5.0, 2.5
 uniform float Luminosity; //0 - 1000;
-
-float time;
 
 vec3 hsv2rgb(vec3 c) {
     vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);
@@ -34,7 +32,7 @@ void main( void )
 	vec3 color = vec3(0.0);
 	float vertColor = 0.0;
 	for(float i = HarmonicOffset; i < HarmonicOffset + NumberOfHarmonics; ++i ) {
-		  float t = iGlobalTime * (2.5);
+		  float t = Time * (Speed);
 		  uPos.y += sin( uPos.x*(i+FreqStart) + t + PhaseOffset*i ) * Scale;
 		  float fTemp = abs(1.0 / uPos.y / Luminosity);
 		  vertColor += fTemp;
@@ -42,7 +40,6 @@ void main( void )
 	}				       
 	vec4 color_final = vec4(color, 2.0);
 	gl_FragColor = color_final;
-	time += 1.0;
 }
 
 )";

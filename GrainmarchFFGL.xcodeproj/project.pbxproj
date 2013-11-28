@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A36FFDC1847D2A0000B12E9 /* FFGLExtensions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A516F2ED7800AD1A46 /* FFGLExtensions.cpp */; };
+		0A36FFDD1847D2A0000B12E9 /* FFGLFBO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A616F2ED7800AD1A46 /* FFGLFBO.cpp */; };
+		0A36FFDE1847D2A0000B12E9 /* FFGLShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A716F2ED7800AD1A46 /* FFGLShader.cpp */; };
+		0A36FFDF1847D2A0000B12E9 /* FFGL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5D916F2ED7800AD1A46 /* FFGL.cpp */; };
+		0A36FFE01847D2A0000B12E9 /* FFGLPluginInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5E916F2ED7800AD1A46 /* FFGLPluginInfo.cpp */; };
+		0A36FFE11847D2A0000B12E9 /* FFGLPluginInfoData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5EB16F2ED7800AD1A46 /* FFGLPluginInfoData.cpp */; };
+		0A36FFE21847D2A0000B12E9 /* FFGLPluginManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5EC16F2ED7800AD1A46 /* FFGLPluginManager.cpp */; };
+		0A36FFE31847D2A0000B12E9 /* FFGLPluginSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5EF16F2ED7800AD1A46 /* FFGLPluginSDK.cpp */; };
+		0A36FFE41847D2A0000B12E9 /* PluginDefinition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B0FCE891793D806004E2E35 /* PluginDefinition.cpp */; };
+		0A36FFEC1847D2BD000B12E9 /* Snakeskin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC85BD1847D20B00745006 /* Snakeskin.cpp */; };
+		0A36FFED1847D2C2000B12E9 /* snakeskin.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 0ABC85BE1847D20B00745006 /* snakeskin.glsl */; };
 		0A620BF11846AC2300AEC836 /* FFGLExtensions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A516F2ED7800AD1A46 /* FFGLExtensions.cpp */; };
 		0A620BF21846AC2300AEC836 /* FFGLFBO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A616F2ED7800AD1A46 /* FFGLFBO.cpp */; };
 		0A620BF31846AC2300AEC836 /* FFGLShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A716F2ED7800AD1A46 /* FFGLShader.cpp */; };
@@ -48,18 +59,7 @@
 		5B8123B41842EA9A0076EB97 /* FFGLPluginSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5EF16F2ED7800AD1A46 /* FFGLPluginSDK.cpp */; };
 		5B8123B51842EA9A0076EB97 /* PluginDefinition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B0FCE891793D806004E2E35 /* PluginDefinition.cpp */; };
 		5B8123BF1842EAE90076EB97 /* Blockhead.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B8123BD1842EAE90076EB97 /* Blockhead.cpp */; };
-		5B8123C5184459F20076EB97 /* FFGLExtensions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A516F2ED7800AD1A46 /* FFGLExtensions.cpp */; };
-		5B8123C6184459F20076EB97 /* FFGLFBO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A616F2ED7800AD1A46 /* FFGLFBO.cpp */; };
-		5B8123C7184459F20076EB97 /* FFGLShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A716F2ED7800AD1A46 /* FFGLShader.cpp */; };
-		5B8123C8184459F20076EB97 /* FFGL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5D916F2ED7800AD1A46 /* FFGL.cpp */; };
-		5B8123C9184459F20076EB97 /* FFGLPluginInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5E916F2ED7800AD1A46 /* FFGLPluginInfo.cpp */; };
-		5B8123CA184459F20076EB97 /* FFGLPluginInfoData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5EB16F2ED7800AD1A46 /* FFGLPluginInfoData.cpp */; };
-		5B8123CB184459F20076EB97 /* FFGLPluginManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5EC16F2ED7800AD1A46 /* FFGLPluginManager.cpp */; };
-		5B8123CC184459F20076EB97 /* FFGLPluginSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5EF16F2ED7800AD1A46 /* FFGLPluginSDK.cpp */; };
-		5B8123CD184459F20076EB97 /* PluginDefinition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B0FCE891793D806004E2E35 /* PluginDefinition.cpp */; };
-		5B8123D718445AF20076EB97 /* NDots.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B8123D518445AF20076EB97 /* NDots.cpp */; };
 		5B8123D918445CA30076EB97 /* Grainmarch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BBDA4EA183F132C0058C89C /* Grainmarch.cpp */; };
-		5B8123DA18445CDF0076EB97 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8123C01842F2E60076EB97 /* GLUT.framework */; };
 		5BBDA4F1183F2ACF0058C89C /* FFGLExtensions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A516F2ED7800AD1A46 /* FFGLExtensions.cpp */; };
 		5BBDA4F2183F2ACF0058C89C /* FFGLFBO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A616F2ED7800AD1A46 /* FFGLFBO.cpp */; };
 		5BBDA4F3183F2ACF0058C89C /* FFGLShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B07B5A716F2ED7800AD1A46 /* FFGLShader.cpp */; };
@@ -73,6 +73,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A36FFEA1847D2A0000B12E9 /* snakeskin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snakeskin.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A36FFEB1847D2A0000B12E9 /* raymarch copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "raymarch copy2-Info.plist"; path = "/Users/scottnla/Documents/grainmarch/raymarch copy2-Info.plist"; sourceTree = "<absolute>"; };
 		0A620BFF1846AC2300AEC836 /* raymarch.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = raymarch.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A620C001846AC2300AEC836 /* cortex copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "cortex copy-Info.plist"; path = "/Users/scottnla/Documents/grainmarch/cortex copy-Info.plist"; sourceTree = "<absolute>"; };
 		0A620C011846AC6600AEC836 /* Raymarch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Raymarch.cpp; path = plugins/Raymarch.cpp; sourceTree = "<group>"; };
@@ -81,6 +83,9 @@
 		0AA3A7AF184458EB005B0AEE /* cortex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cortex.glsl; path = plugins/cortex.glsl; sourceTree = "<group>"; };
 		0AA3A7C518445912005B0AEE /* cortex.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cortex.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AA3A7C618445912005B0AEE /* Grainmarch copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Grainmarch copy-Info.plist"; path = "/Users/scottnla/Documents/grainmarch/Grainmarch copy-Info.plist"; sourceTree = "<absolute>"; };
+		0ABC85BC1847D1CF00745006 /* raymarch copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "raymarch copy-Info.plist"; path = "/Users/scottnla/Documents/grainmarch/raymarch copy-Info.plist"; sourceTree = "<absolute>"; };
+		0ABC85BD1847D20B00745006 /* Snakeskin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Snakeskin.cpp; path = plugins/Snakeskin.cpp; sourceTree = "<group>"; };
+		0ABC85BE1847D20B00745006 /* snakeskin.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = snakeskin.glsl; path = plugins/snakeskin.glsl; sourceTree = "<group>"; };
 		2D2190970AF02BD1007154B7 /* GrainmarchFFGL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GrainmarchFFGL-Info.plist"; sourceTree = "<group>"; };
 		2DA287A70AEEFE950030A4DD /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
 		5B07B56D16F2ED7800AD1A46 /* FFGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFGL.h; sourceTree = "<group>"; };
@@ -106,15 +111,11 @@
 		5B0FCE8D1793DCEC004E2E35 /* default_vertex_shader.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = default_vertex_shader.glsl; path = plugins/default_vertex_shader.glsl; sourceTree = "<group>"; };
 		5B0FCE911793DE3E004E2E35 /* Grainmarch.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; name = Grainmarch.glsl; path = plugins/Grainmarch.glsl; sourceTree = "<group>"; };
 		5B8123A91842AD7C0076EB97 /* GrainmarchFFGL.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrainmarchFFGL.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B8123BB1842EA9A0076EB97 /* Blockhead.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Blockhead.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B8123BB1842EA9A0076EB97 /* Blockhead.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Blockhead.bundle; path = BlockheadFFGL.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B8123BC1842EA9A0076EB97 /* Blockhead-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Blockhead-Info.plist"; path = "/Users/dewb/dev/grainmarch/Blockhead-Info.plist"; sourceTree = "<absolute>"; };
 		5B8123BD1842EAE90076EB97 /* Blockhead.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Blockhead.cpp; path = plugins/Blockhead.cpp; sourceTree = "<group>"; };
 		5B8123BE1842EAE90076EB97 /* Blockhead.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Blockhead.glsl; path = plugins/Blockhead.glsl; sourceTree = "<group>"; };
 		5B8123C01842F2E60076EB97 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /System/Library/Frameworks/GLUT.framework; sourceTree = "<absolute>"; };
-		5B8123D3184459F20076EB97 /* NDots.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NDots.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B8123D4184459F20076EB97 /* NDots-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "NDots-Info.plist"; path = "/Users/dewb/dev/grainmarch/NDots-Info.plist"; sourceTree = "<absolute>"; };
-		5B8123D518445AF20076EB97 /* NDots.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NDots.cpp; path = plugins/NDots.cpp; sourceTree = "<group>"; };
-		5B8123D618445AF20076EB97 /* NDots.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = NDots.glsl; path = plugins/NDots.glsl; sourceTree = "<group>"; };
 		5BBDA4EA183F132C0058C89C /* Grainmarch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Grainmarch.cpp; path = plugins/Grainmarch.cpp; sourceTree = "<group>"; };
 		5BBDA500183F2ACF0058C89C /* TanlineFFGL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TanlineFFGL-Info.plist"; path = "/Users/dewb/dev/grainmarch/TanlineFFGL-Info.plist"; sourceTree = "<absolute>"; };
 		5BBDA502183F2B430058C89C /* Tanline.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Tanline.cpp; path = plugins/Tanline.cpp; sourceTree = "<group>"; };
@@ -123,6 +124,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0A36FFE61847D2A0000B12E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0A620BFB1846AC2300AEC836 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -148,14 +156,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5B8123CF184459F20076EB97 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5B8123DA18445CDF0076EB97 /* GLUT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +188,9 @@
 				0AA3A7C618445912005B0AEE /* Grainmarch copy-Info.plist */,
 				0A620BFF1846AC2300AEC836 /* raymarch.bundle */,
 				0A620C001846AC2300AEC836 /* cortex copy-Info.plist */,
+				0ABC85BC1847D1CF00745006 /* raymarch copy-Info.plist */,
+				0A36FFEA1847D2A0000B12E9 /* snakeskin.bundle */,
+				0A36FFEB1847D2A0000B12E9 /* raymarch copy2-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -251,6 +254,8 @@
 		5BBDA4ED183F13350058C89C /* plugins */ = {
 			isa = PBXGroup;
 			children = (
+				0ABC85BD1847D20B00745006 /* Snakeskin.cpp */,
+				0ABC85BE1847D20B00745006 /* snakeskin.glsl */,
 				0AA3A7AE184458EB005B0AEE /* cortex.cpp */,
 				0AA3A7AF184458EB005B0AEE /* cortex.glsl */,
 				5B0FCE8D1793DCEC004E2E35 /* default_vertex_shader.glsl */,
@@ -269,6 +274,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0A36FFD81847D2A0000B12E9 /* snakeskin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A36FFE71847D2A0000B12E9 /* Build configuration list for PBXNativeTarget "snakeskin" */;
+			buildPhases = (
+				0A36FFD91847D2A0000B12E9 /* Resources */,
+				0A36FFDB1847D2A0000B12E9 /* Sources */,
+				0A36FFE61847D2A0000B12E9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = snakeskin;
+			productName = FFGLBrightness;
+			productReference = 0A36FFEA1847D2A0000B12E9 /* snakeskin.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		0A620BED1846AC2300AEC836 /* raymarch */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A620BFC1846AC2300AEC836 /* Build configuration list for PBXNativeTarget "raymarch" */;
@@ -337,23 +359,6 @@
 			productReference = 5B8123BB1842EA9A0076EB97 /* Blockhead.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		5B8123C2184459F20076EB97 /* NDots */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5B8123D0184459F20076EB97 /* Build configuration list for PBXNativeTarget "NDots" */;
-			buildPhases = (
-				5B8123C3184459F20076EB97 /* Resources */,
-				5B8123C4184459F20076EB97 /* Sources */,
-				5B8123CF184459F20076EB97 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = NDots;
-			productName = FFGLBrightness;
-			productReference = 5B8123D3184459F20076EB97 /* NDots.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
 		5BBDA4EE183F2ACF0058C89C /* Tanline */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BBDA4FC183F2ACF0058C89C /* Build configuration list for PBXNativeTarget "Tanline" */;
@@ -396,11 +401,20 @@
 				5B8123AA1842EA9A0076EB97 /* Blockhead */,
 				0AA3A7B218445912005B0AEE /* cortex */,
 				0A620BED1846AC2300AEC836 /* raymarch */,
+				0A36FFD81847D2A0000B12E9 /* snakeskin */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0A36FFD91847D2A0000B12E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A36FFED1847D2C2000B12E9 /* snakeskin.glsl in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0A620BEE1846AC2300AEC836 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -431,13 +445,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B8123C3184459F20076EB97 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5BBDA4EF183F2ACF0058C89C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -448,6 +455,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0A36FFDB1847D2A0000B12E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A36FFDC1847D2A0000B12E9 /* FFGLExtensions.cpp in Sources */,
+				0A36FFDD1847D2A0000B12E9 /* FFGLFBO.cpp in Sources */,
+				0A36FFDE1847D2A0000B12E9 /* FFGLShader.cpp in Sources */,
+				0A36FFDF1847D2A0000B12E9 /* FFGL.cpp in Sources */,
+				0A36FFE01847D2A0000B12E9 /* FFGLPluginInfo.cpp in Sources */,
+				0A36FFE11847D2A0000B12E9 /* FFGLPluginInfoData.cpp in Sources */,
+				0A36FFE21847D2A0000B12E9 /* FFGLPluginManager.cpp in Sources */,
+				0A36FFE31847D2A0000B12E9 /* FFGLPluginSDK.cpp in Sources */,
+				0A36FFE41847D2A0000B12E9 /* PluginDefinition.cpp in Sources */,
+				0A36FFEC1847D2BD000B12E9 /* Snakeskin.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0A620BF01846AC2300AEC836 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -516,23 +540,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B8123C4184459F20076EB97 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5B8123C5184459F20076EB97 /* FFGLExtensions.cpp in Sources */,
-				5B8123C6184459F20076EB97 /* FFGLFBO.cpp in Sources */,
-				5B8123C7184459F20076EB97 /* FFGLShader.cpp in Sources */,
-				5B8123C8184459F20076EB97 /* FFGL.cpp in Sources */,
-				5B8123C9184459F20076EB97 /* FFGLPluginInfo.cpp in Sources */,
-				5B8123CA184459F20076EB97 /* FFGLPluginInfoData.cpp in Sources */,
-				5B8123CB184459F20076EB97 /* FFGLPluginManager.cpp in Sources */,
-				5B8123CC184459F20076EB97 /* FFGLPluginSDK.cpp in Sources */,
-				5B8123CD184459F20076EB97 /* PluginDefinition.cpp in Sources */,
-				5B8123D718445AF20076EB97 /* NDots.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5BBDA4F0183F2ACF0058C89C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -553,6 +560,76 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		0A36FFE81847D2A0000B12E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = bin;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"TARGET_OS_MAC=1",
+					"_DEBUG=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/FFGLSDK_1_5/Source/FFGLPlugins",
+					"$(SRCROOT)/FFGLSDK_1_5/Include",
+				);
+				INFOPLIST_FILE = "raymarch copy2-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					OpenGL,
+				);
+				PRODUCT_NAME = snakeskin;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		0A36FFE91847D2A0000B12E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = bin;
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "TARGET_OS_MAC=1";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/FFGLSDK_1_5/Source/FFGLPlugins",
+					"$(SRCROOT)/FFGLSDK_1_5/Include",
+					"$(SRCROOT)/gl-matrix",
+				);
+				INFOPLIST_FILE = "raymarch copy2-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_LDFLAGS = (
+					"-framework",
+					OpenGL,
+				);
+				PRODUCT_NAME = snakeskin;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
 		0A620BFD1846AC2300AEC836 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -859,76 +936,6 @@
 			};
 			name = Release;
 		};
-		5B8123D1184459F20076EB97 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = bin;
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_MODEL_TUNING = G5;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"TARGET_OS_MAC=1",
-					"_DEBUG=1",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/FFGLSDK_1_5/Source/FFGLPlugins",
-					"$(SRCROOT)/FFGLSDK_1_5/Include",
-				);
-				INFOPLIST_FILE = "NDots-Info.plist";
-				INSTALL_PATH = "$(HOME)/Library/Bundles";
-				MACOSX_DEPLOYMENT_TARGET = "";
-				OTHER_LDFLAGS = (
-					"-framework",
-					OpenGL,
-				);
-				PRODUCT_NAME = NDotsFFGL;
-				SDKROOT = macosx;
-				WRAPPER_EXTENSION = bundle;
-				ZERO_LINK = NO;
-			};
-			name = Debug;
-		};
-		5B8123D2184459F20076EB97 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = bin;
-				COPY_PHASE_STRIP = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "";
-				GCC_PREPROCESSOR_DEFINITIONS = "TARGET_OS_MAC=1";
-				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/FFGLSDK_1_5/Source/FFGLPlugins",
-					"$(SRCROOT)/FFGLSDK_1_5/Include",
-					"$(SRCROOT)/gl-matrix",
-				);
-				INFOPLIST_FILE = "NDots-Info.plist";
-				INSTALL_PATH = "$(HOME)/Library/Bundles";
-				MACOSX_DEPLOYMENT_TARGET = "";
-				OTHER_LDFLAGS = (
-					"-framework",
-					OpenGL,
-				);
-				PRODUCT_NAME = NDotsFFGL;
-				SDKROOT = macosx;
-				WRAPPER_EXTENSION = bundle;
-				ZERO_LINK = NO;
-			};
-			name = Release;
-		};
 		5BBDA4FD183F2ACF0058C89C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1002,6 +1009,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0A36FFE71847D2A0000B12E9 /* Build configuration list for PBXNativeTarget "snakeskin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A36FFE81847D2A0000B12E9 /* Debug */,
+				0A36FFE91847D2A0000B12E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0A620BFC1846AC2300AEC836 /* Build configuration list for PBXNativeTarget "raymarch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1043,15 +1059,6 @@
 			buildConfigurations = (
 				5B8123B91842EA9A0076EB97 /* Debug */,
 				5B8123BA1842EA9A0076EB97 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5B8123D0184459F20076EB97 /* Build configuration list for PBXNativeTarget "NDots" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5B8123D1184459F20076EB97 /* Debug */,
-				5B8123D2184459F20076EB97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -76,6 +76,20 @@
                ReferencedContainer = "container:GrainmarchFFGL.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0A36FFD81847D2A0000B12E9"
+               BuildableName = "snakeskin.bundle"
+               BlueprintName = "snakeskin"
+               ReferencedContainer = "container:GrainmarchFFGL.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction

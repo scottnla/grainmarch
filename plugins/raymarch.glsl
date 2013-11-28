@@ -20,9 +20,9 @@ uniform float OffsetY;
 uniform float FieldOfView;
 
 #define MIN	0.0
-#define MAX	40.0
+#define MAX	50.0
 #define DELTA	0.01
-#define ITER	100
+#define ITER	1000
 
 float sphere(vec3 p, float r) {
       p = mod(p,2.0)-0.5*2.0;

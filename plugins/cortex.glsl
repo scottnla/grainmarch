@@ -3,7 +3,7 @@ char fragmentShaderCode[] = R"(
 //precision highp float;
 
 uniform float iResolutionX, iResolutionY;
-uniform float iGlobalTime;
+uniform float Time;
 uniform float sVert, sHorizon, sDiag, sDiagAlt, sArms, sRings, sSpiral, sSpiralAlt;
 uniform float vertPeriod, horizonPeriod, diagPeriod, diagAltPeriod, armPeriod, ringPeriod, spiralPeriod, spiralAltPeriod;
 uniform float numVert, numHorizon, numDiag, numDiagAlt, numRings, numArms, numSpiral, numSpiralAlt;
@@ -25,24 +25,24 @@ void main( void ) {
     float color = 0.0;
     
     //Vertical Bands
-        color += sVert * cos(numVert*cY + vertPeriod*iGlobalTime);
+        color += sVert * cos(numVert*cY + vertPeriod*Time);
     //Horizontal Bands
-        color += sHorizon * cos(numHorizon*cX + horizonPeriod*iGlobalTime);
+        color += sHorizon * cos(numHorizon*cX + horizonPeriod*Time);
     //Diagonal Bands
-        color += sDiag * (cos(2.0*numDiag*(cX*sin(spiralAngle) + cY*cos(spiralAngle)) + diagPeriod*iGlobalTime));
+        color += sDiag * (cos(2.0*numDiag*(cX*sin(spiralAngle) + cY*cos(spiralAngle)) + diagPeriod*Time));
     //Perpendicular Diagonal bands
-        color += sDiagAlt * (cos(2.0*numDiagAlt*(cX*sin(spiralAngleAlt) + cY*cos(spiralAngleAlt)) + diagAltPeriod*iGlobalTime));
+        color += sDiagAlt * (cos(2.0*numDiagAlt*(cX*sin(spiralAngleAlt) + cY*cos(spiralAngleAlt)) + diagAltPeriod*Time));
     //Arms
-        color += sArms * cos(numArms*newY + armPeriod*iGlobalTime);
+        color += sArms * cos(numArms*newY + armPeriod*Time);
     //Rings
-        color += sRings * cos(numRings*newX + ringPeriod*iGlobalTime);
+        color += sRings * cos(numRings*newX + ringPeriod*Time);
     //Spirals
-        color += sSpiral * (cos(2.0*numSpiral*(newX*sin(spiralAngle) + newY*cos(spiralAngle)) + spiralPeriod*iGlobalTime));
+        color += sSpiral * (cos(2.0*numSpiral*(newX*sin(spiralAngle) + newY*cos(spiralAngle)) + spiralPeriod*Time));
     //Alt Spirals
-        color += sSpiralAlt * (cos(2.0*numSpiralAlt*(newX*sin(spiralAngleAlt) + newY*cos(spiralAngleAlt)) + spiralAltPeriod*iGlobalTime));
+        color += sSpiralAlt * (cos(2.0*numSpiralAlt*(newX*sin(spiralAngleAlt) + newY*cos(spiralAngleAlt)) + spiralAltPeriod*Time));
     //overall brightness/color
-    //color *= cos(iGlobalTime/10.0);
-    gl_FragColor = vec4( vec3( sin( color + iGlobalTime / 3.0 ) * 0.75, color, sin( color + iGlobalTime / 3.0 ) * 0.75 ), 1.0 );
+    //color *= cos(Time/10.0);
+    gl_FragColor = vec4( vec3( sin( color + Time / 3.0 ) * 0.75, color, sin( color + Time / 3.0 ) * 0.75 ), 1.0 );
     //gl_FragColor = vec4(1.0,0.0,0.0,1.0);
     
 }

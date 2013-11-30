@@ -1,9 +1,9 @@
 char fragmentShaderCode[] = R"(
-#version 130
-precision highp float;
+#version 120
+//precision highp float;
 
 uniform float iResolutionX, iResolutionY;
-uniform float iGlobalTime;
+uniform float Time;
 uniform float sVert, sHorizon, sDiag, sDiagAlt, sArms, sRings, sSpiral, sSpiralAlt;
 uniform float vertPeriod, horizonPeriod, diagPeriod, diagAltPeriod, armPeriod, ringPeriod, spiralPeriod, spiralAltPeriod;
 uniform float numVert, numHorizon, numDiag, numDiagAlt, numRings, numArms, numSpiral, numSpiralAlt;

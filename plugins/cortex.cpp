@@ -19,6 +19,7 @@ DECLARE_PLUGIN(SourcePlugin,
 // Parameter(uniform name, minimum value, maximum value, default value, optional type (default standard/float.))
 
 BEGIN_SHADER_PARAMETERS()
+    PARAM("Time", 0.0, 25.0, 0.0)
     PARAM("sVert", 0.0, 1.0, 0.0)
     PARAM("sHorizon", 0.0, 1.0, 0.0)
     PARAM("sDiag", 0.0, 1.0, 0.0)
